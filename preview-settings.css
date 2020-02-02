@@ -14,7 +14,7 @@
 		border: rgba(0, 0, 0, 0.8) 1px solid;
 	}
 
-	main > div {
+	main > section {
 		border: rgba(0, 0, 0, 0.3) 1px solid;
 	}
 }
