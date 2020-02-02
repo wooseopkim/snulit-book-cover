@@ -1,0 +1,26 @@
+:root {
+	--paper-width: 152mm;
+	--paper-height: 225mm;
+	--spine-width: 5mm;
+}
+
+main {
+	height: var(--paper-height);
+	display: inline-block;
+	display: flex;
+}
+
+main > div {
+	height: 100%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.page {
+	width: var(--paper-width);
+}
+
+.spine {
+	width: var(--spine-width);
+}
