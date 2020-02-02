@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>청년문학 2020</title>
+  <title>청년문학 2020</title>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
 	<link href="https://meyerweb.com/eric/tools/css/reset/reset.css" rel="stylesheet" />
 	<link href="layout.css" rel="stylesheet" />
 	<link href="style.css" rel="stylesheet" />
@@ -12,14 +13,15 @@
 <body>
 	<main>
     <div class="rear page">
-      
+
     </div>
     <div class="spine">
-
     </div>
     <div class="front page">
-
+      {{ title }}
     </div>
   </main>
+  <script src="values.js"></script>
+  <script src="renderer.js"></script>
 </body>
 </html>
