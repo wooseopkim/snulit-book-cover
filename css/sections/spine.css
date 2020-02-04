@@ -1,2 +1,40 @@
 .spine {
+  display: flex;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+}
+
+.spine .title {
+  font-family: '210 맨발의청춘';
+  margin-top: 2cm;
+  transform: translateX(-0.4mm);
+}
+
+.spine .subtitle {
+  font-family: 'Didot';
+  font-size: 180%;
+  transform: translateX(0.6mm) scaleY(0.75);
+}
+
+.spine .emblem {
+  content: ' ';
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-block;
+  background-image: url(/img/emblem.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateX(-0mm) rotateZ(90deg);
+  margin-bottom: 1mm;
+}
+
+.spine .credits {
+  font-family: 'Noto Serif CJK KR';
+  margin-bottom: 2cm;
+  transform: translateX(0.1mm);
+}
+
+.spine .spacer {
+  flex: 1;
 }
