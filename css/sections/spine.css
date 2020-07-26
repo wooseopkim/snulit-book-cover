@@ -30,9 +30,9 @@
 }
 
 .spine .credits {
-  font-family: 'Noto Serif CJK KR';
+  font-family: '나눔명조';
   margin-bottom: 2cm;
-  transform: translateX(0.1mm);
+  transform: translateX(-0.2mm);
 }
 
 .spine .spacer {
