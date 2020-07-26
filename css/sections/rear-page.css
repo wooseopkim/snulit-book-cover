@@ -1,2 +1,45 @@
 .rear.page {
+  position: relative;
+}
+
+.rear.page figure {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(/img/cover.jpg);
+  background-position: left;
+  background-size: cover;
+  opacity: 0.3;
+  filter: grayscale(50%);
+}
+
+.rear.page .vertical {
+  writing-mode: vertical-lr;
+}
+
+.rear.page .header,
+.rear.page .footer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: '나눔명조';
+  color: rgba(0, 0, 0, 0.95);
+	font-size: 0.4cm;
+	font-weight: 200;
+}
+
+.rear.page .header {
+  padding-top: 2cm;
+  padding-right: 2cm;
+  text-align: end;
+}
+
+.rear.page .footer {
+  padding-left: 2cm;
+  padding-bottom: 2cm;
+  top: initial;
 }
