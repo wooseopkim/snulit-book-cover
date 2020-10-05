@@ -3,24 +3,27 @@
   align-items: center;
   writing-mode: vertical-rl;
   text-orientation: sideways;
+  font-size: 2rem;
 }
 
 .spine .title {
   font-family: '210 맨발의청춘';
+	font-weight: 100;
   margin-top: 2cm;
   transform: translateX(-0.4mm);
 }
 
 .spine .subtitle {
   font-family: 'Didot';
-  font-size: 180%;
-  transform: translateX(0.6mm) scaleY(0.75);
+	font-weight: 100;
+  font-size: 190%;
+  transform: translateX(1.5mm) scaleY(0.75);
 }
 
 .spine .emblem {
   content: ' ';
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 2.4rem;
+  height: 2.4rem;
   display: inline-block;
   background-image: url(/img/emblem.svg);
   background-size: contain;
