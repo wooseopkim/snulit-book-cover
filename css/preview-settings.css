@@ -1,28 +1,28 @@
 @media screen {
-	html {
-		background-size: 1mm 1mm;
-		background-image:
-			linear-gradient(to right, grey 1px, transparent 1px),
-			linear-gradient(to bottom, grey 1px, transparent 1px);
-	}
+  html {
+    background-size: 1mm 1mm;
+    background-image:
+      linear-gradient(to right, grey 1px, transparent 1px),
+      linear-gradient(to bottom, grey 1px, transparent 1px);
+  }
 
-	html, body {
-		width: 100%;
-		height: 100%;
-	}
-	
-	body {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-	main {
-		background-color: white;
-		border: rgba(0, 0, 0, 0.8) 1px solid;
-	}
+  main {
+    background-color: white;
+    border: rgba(0, 0, 0, 0.8) 1px solid;
+  }
 
-	main > section {
-		border: rgba(0, 0, 0, 0.3) 1px solid;
-	}
+  main > section {
+    border: rgba(0, 0, 0, 0.3) 1px solid;
+  }
 }

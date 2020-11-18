@@ -8,14 +8,14 @@
 
 .spine .title {
   font-family: '210 맨발의청춘';
-	font-weight: 100;
+  font-weight: 100;
   margin-top: 2cm;
   transform: translateX(-0.4mm);
 }
 
 .spine .subtitle {
   font-family: 'Didot';
-	font-weight: 100;
+  font-weight: 100;
   font-size: 190%;
   transform: translateX(1.5mm) scaleY(0.75);
 }

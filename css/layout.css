@@ -1,26 +1,26 @@
 :root {
-	--paper-width: 148mm;
-	--paper-height: 210mm;
-	--spine-width: 19.2mm;
+  --paper-width: 148mm;
+  --paper-height: 210mm;
+  --spine-width: 19.2mm;
 }
 
 main {
-	height: var(--paper-height);
-	display: inline-block;
-	display: flex;
+  height: var(--paper-height);
+  display: inline-block;
+  display: flex;
 }
 
 main > section {
-	height: 100%;
-	display: inline-block;
-	margin: 0;
-	padding: 0;
+  height: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 .page {
-	width: var(--paper-width);
+  width: var(--paper-width);
 }
 
 .spine {
-	width: var(--spine-width);
+  width: var(--spine-width);
 }
