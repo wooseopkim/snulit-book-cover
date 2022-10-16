@@ -8,7 +8,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url(/img/cover.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url('https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634_960_720.png');
   background-position: left;
   background-size: cover;
   opacity: 0.3;
@@ -26,7 +26,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  font-family: '나눔명조';
+  font-family: 'NotoSerifKR';
   color: rgba(0, 0, 0, 0.95);
   font-size: 0.4cm;
   font-weight: 200;
@@ -34,12 +34,14 @@
 
 .rear.page .header {
   padding-top: 2.5cm;
+  padding-left: 2cm;
   padding-right: 2cm;
   text-align: end;
 }
 
 .rear.page .footer {
   padding-left: 2cm;
+  padding-right: 2cm;
   padding-bottom: 2.5cm;
   top: initial;
 }

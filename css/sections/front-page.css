@@ -11,8 +11,8 @@
 }
 
 .front.page .title {
-  font-family: '210 맨발의청춘';
-  font-size: 0.85cm;
+  font-family: 'NotoSerifKR';
+  font-size: 2.5cm;
   font-weight: 100;
   margin-left: 2cm;
   margin-right: 2cm;
@@ -20,23 +20,19 @@
 }
 
 .front.page .subtitle {
-  font-family: 'Didot';
-  font-size: 4cm;
+  font-family: 'NotoSerifKR';
+  font-size: 0.8cm;
   line-height: 1cm;
   font-weight: 100;
-  margin-top: 0.2cm;
-  margin-left: 2cm;
-  margin-right: 2cm;
-  text-align: center;
-  transform: scaleX(0.75);
+  margin-top: 0.7cm;
+  margin-left: 2.8cm;
+  margin-right: 2.8cm;
+  text-align: right;
 }
 
 .front.page figure {
   flex: 1;
-  background-image: url(/img/cover.jpg);
-  /* Or choose one of these: */
-  /* background-image: url(https://live.staticflickr.com/803/27196073678_4933dba663_6k.jpg); */
-  /* background-image: url(https://live.staticflickr.com/821/27169206508_4ad9132cc4_6k.jpg); */
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634_960_720.png');
   background-position: center;
   background-size: cover;
 }

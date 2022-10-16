@@ -1,9 +1,8 @@
 const values = {
-  title: '청년문학 제20호',
-  subtitle: '2020',
+  title: '청년문학',
+  subtitle: '제21호',
   credits: '총문학연구회',
-  'rear_header': '서울대학교 총문학연구' + vertical('회는 회원의 창작물을 모아 회지를 발간합니다.'),
-  'rear_footer': vertical('학기와 방학 중에 합평과 세미나 등 다양한') + ' 활동을 진행하고 있습니다.',
+  'rear_footer': '서울대학교 총문학연구회는 언제나 신입회원을 모집하고 있습니다. 학생회관 301호를 찾아주세요.',
 }
 
 function vertical(text) {
