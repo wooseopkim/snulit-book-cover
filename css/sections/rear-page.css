@@ -45,9 +45,9 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  padding-left: 2cm;
+  padding-left: 1.9cm;
   padding-right: 6.5cm;
-  padding-bottom: 2.5cm;
+  padding-bottom: 2.1cm;
   word-break: keep-all;
   background-image: linear-gradient(rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%);
 }
