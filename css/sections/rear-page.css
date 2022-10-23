@@ -46,7 +46,7 @@
   flex-direction: column;
   justify-content: end;
   padding-left: 1.9cm;
-  padding-right: 6.5cm;
+  padding-right: 6cm;
   padding-bottom: 2.1cm;
   word-break: keep-all;
   background-image: linear-gradient(rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%);
@@ -60,10 +60,12 @@
 }
 
 .rear.page .footer h3 {
+  font-size: 0.5cm;
+}
+
+.rear.page .footer h3:first-of-type {
   font-family: 'Hahmlet-Regular';
   font-weight: bold;
-  font-size: 0.5cm;
-  vertical-align: baseline;
 }
 
 .rear.page .footer p {
