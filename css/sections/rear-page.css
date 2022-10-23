@@ -8,9 +8,11 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url('https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634_960_720.png');
-  background-position: left;
-  background-size: cover;
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634_960_720.png');
+  background-repeat: no-repeat;
+  background-position-y: -20cm;
+  background-position-x: -17cm;
+  background-size: 93cm;
   opacity: 0.3;
   filter: grayscale(50%);
 }
@@ -40,11 +42,14 @@
 }
 
 .rear.page .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   padding-left: 2cm;
   padding-right: 6.5cm;
   padding-bottom: 2.5cm;
-  top: initial;
   word-break: keep-all;
+  background-image: linear-gradient(rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%);
 }
 
 .rear.page h3,
