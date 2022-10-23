@@ -41,7 +41,25 @@
 
 .rear.page .footer {
   padding-left: 2cm;
-  padding-right: 2cm;
+  padding-right: 6.5cm;
   padding-bottom: 2.5cm;
   top: initial;
+  word-break: keep-all;
+}
+
+.rear.page h3,
+.rear.page h6 {
+  font-family: 'Hahmlet-Regular';
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 0.2cm;
+}
+
+.rear.page h3 {
+  font-size: 0.5cm;
+}
+
+.rear.page h6 {
+  font-size: 0.4cm;
+  margin-left: 0.2cm;
 }
