@@ -7,9 +7,11 @@
 }
 
 .spine .title {
-  font-family: 'NotoSerifKR';
-  font-weight: 100;
+  font-family: 'Hahmlet-Regular';
+  font-weight: 700;
+  font-size: 105%;
   margin-top: 2cm;
+  transform: translateX(0.4mm);
 }
 
 .spine .subtitle {
@@ -21,7 +23,6 @@
 .spine .credits {
   font-family: 'NotoSerifKR';
   margin-bottom: 2cm;
-  transform: translateX(-0.2mm);
 }
 
 .spine .spacer {
