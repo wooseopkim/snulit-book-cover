@@ -1,4 +1,4 @@
-### snulit-book-cover
+# snulit-book-cover
 
 This repository contains code for cover design of books from "총문학연구회", a Seoul National University students' literature club.
 
