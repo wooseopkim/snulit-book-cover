@@ -25,6 +25,11 @@
   margin-bottom: 2cm;
 }
 
+.spine .subtitle,
+.spine .credits {
+  transform: translateX(-0.7mm);
+}
+
 .spine .spacer {
   flex: 1;
 }
